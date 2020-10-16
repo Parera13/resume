@@ -59,11 +59,6 @@ function SkillsProjects() {
           <a target="_blank" href="https://github.com/Parera13/weather-app">https://github.com/Parera13/weather-app</a>
         </div>
         <div className='project-content'>
-          <h2>social media dashboard</h2>
-          <h3>social media dashboard built in react, use own database </h3>
-          <a target="_blank" href="https://github.com/Parera13/socialdashbord">https://github.com/Parera13/socialdashbord</a>
-        </div>
-        <div className='project-content'>
           <h2>todo dashboard</h2>
           <h3>todo dashboard built in react </h3>
           <a target="_blank" href="https://github.com/Parera13/todo-list">https://github.com/Parera13/todo-list</a>
@@ -73,9 +68,15 @@ function SkillsProjects() {
           <h3>search products built in react, use own database </h3>
           <a target="_blank" href="https://github.com/Parera13/find-your-product">https://github.com/Parera13/find-your-product</a>
         </div>
+        <div className='project-content'>
+          <h2>my resume</h2>
+          <h3>create my own resume in React </h3>
+          <a target="_blank" href="https://github.com/Parera13/resume">https://github.com/Parera13/find-your-product</a>
+        </div>
       </div>
     </div>
   );
 }
 
 export default SkillsProjects;
+
