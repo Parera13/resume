@@ -1,0 +1,95 @@
+.head-component{
+  background-color: #30373d;
+  width: 100%;
+  height: 28%;
+  display: flex;
+}
+
+
+/* left side */
+.left{
+  height: 100%;
+  width: 40%;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+.photo{
+  height: 70%;
+  text-align:center ;
+}
+img{
+  height: 100%;
+  border: 8px solid transparent;
+  border-radius: 50%;
+  background: 
+      linear-gradient(to right, hsl(228, 28%, 20%), hsl(228, 28%, 20%)), 
+      linear-gradient(10deg, hsl(201, 64%, 30%), hsl(191, 70%, 58%));
+  /*border-image-source: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%)); 
+  border-image-slice: 5;*/
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+.name{
+  line-height: .1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+#firstName,
+#secondName{
+  font-size: 2.5rem;
+  color: rgb(89, 189, 214);
+}
+#firstName{
+  font-weight: 800;
+}
+#secondName{
+  font-weight: 200;
+}
+.name p{
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+
+/* right side */
+.right{
+  width: 60%;
+  padding: 2rem;
+  padding-left: 0;
+  padding-right: 4rem;
+  text-align: justify;
+  position: relative;
+}
+.right-content{
+  padding-top: 1rem;
+}
+.contact,
+.contacts{
+  display: flex;
+}
+.contact{
+  align-items: center;
+}
+.contacts{
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  padding-right: 4rem;
+}
+.contact-left{
+  width: 50%;
+}
+.fa{
+  font-size: 3rem;
+  /* color: grey;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 195, 255)), to(#333));
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  margin: 1rem;
+  color: rgb(89, 189, 214);
+}
+.contacts p{
+  font-size: .8rem;
+}

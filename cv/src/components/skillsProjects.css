@@ -1,0 +1,84 @@
+.skills-projects-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills, .projects {
+  height: 25rem;
+  width: 48%;
+  background-color: #30373d;
+}
+
+.skills {
+  position: relative;
+}
+
+.skills span, .projects span {
+  text-align: center;
+  display: block;
+  padding-top: .5rem;
+}
+.projects span{
+  margin-bottom: 1.5rem;
+}
+
+.project-content {
+  padding: 0.5rem 2rem 0 2rem;
+}
+
+.skills-content {
+  display: flex;
+  padding: 2rem;
+}
+
+.hard, .soft {
+  width: 50%;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(58, 69, 78);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.icon {
+  font-size: 3rem;
+  color: rgb(147, 173, 180);
+  margin: .2rem 0;
+}
+
+.soft .title, .hard .title {
+  color: rgb(211, 209, 209);
+  font-weight: 500;
+}
+.skills p{
+  text-align: center;
+  margin: .2rem 0;
+  color: rgb(89, 189, 214);
+}
+.project-content h2{
+  color: rgb(211, 209, 209);
+  margin: 0;
+  font-size: 1rem;
+}
+.project-content h3,
+h4{
+  color: rgb(228, 228, 228);
+  margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.project-content a{
+  color: rgb(89, 189, 214);
+  font-style: italic;
+  text-decoration-line: none;
+  text-transform: lowercase;
+}
+.hard-content,
+.soft-content{
+  line-height: 2rem;
+}

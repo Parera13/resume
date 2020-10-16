@@ -1,0 +1,52 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.language,
+.text{
+  background-color: #30373d;
+}
+.language{
+  width: 20%;
+}
+.language-inside{
+  
+}
+.text{
+  width: 76%;
+}
+.language .title{
+  text-align: center;
+  display: block;
+  padding-top: 1.5rem;
+}
+.language-content{
+  display: flex;
+  justify-content: center;
+}
+.language-content p{
+  text-align: center;
+  justify-content: center;
+}
+
+.text p{
+  padding: 2rem;
+  margin: 0;
+}
+.line-block{
+  display: flex;
+  font-weight: 900;
+}
+#quot{
+  font-size: 2rem;
+}
+#lines{
+  margin-left: 0.3rem;
+  color: rgb(89, 189, 214);
+}
+#lines-empty{
+  color: rgba(255, 255, 255, 0.404);
+}
