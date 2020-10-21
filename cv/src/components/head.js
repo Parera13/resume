@@ -11,7 +11,7 @@ function Head() {
         <div className='name'>
           <span id='firstName'>istvan</span>
           <span id='secondName'> balazs</span>
-          <p>frontend developer</p>
+          <p>Software tester</p>
         </div>
       </div>
       <div className='right'>
@@ -30,21 +30,21 @@ function Head() {
           <div className='contacts'>
             <div className='contact-left'>
               <div className='contact'>
-                <i class='fa fa-address-book'></i>
+                <i className='fa fa-address-book'></i>
                 <p>00 36 70 907 1313</p>
               </div>
               <div className='contact'>
-                <i class='fa fa-envelope-square'></i>
+                <i className='fa fa-envelope-square'></i>
                 <p>istvan.balazs.priv@gmail.com</p>
               </div>
             </div>
             <div className='contact-right'>
               <div className='contact'>
-                <i class="fa fa-compass"></i>
+                <i className="fa fa-compass"></i>
                 <p>12. kerulet, budapest</p>
               </div>
               <div className='contact'>
-                <i class="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin"></i>
                 <p>www.linkedin.com/in/istvan13</p>
               </div>
             </div>

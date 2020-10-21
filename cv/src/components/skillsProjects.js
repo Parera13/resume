@@ -82,7 +82,7 @@ function SkillsProjects() {
             <h2>my resume</h2>
             <h3>create my own resume in React </h3>
             <a target='_blank' href='https://github.com/Parera13/resume'>
-              https://github.com/Parera13/find-your-product
+              https://github.com/Parera13/resume
             </a>
           </div>
         </div>
