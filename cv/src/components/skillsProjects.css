@@ -5,10 +5,20 @@
 
 .skills, .projects {
   height: 25rem;
-  width: 48%;
   background-color: #30373d;
 }
-
+.skills{
+  width: 38%;
+}
+.projects{
+  width: 58%;
+}
+.projects .title{
+  text-align: center;
+}
+.projects-main{
+  
+}
 .skills {
   position: relative;
 }
@@ -23,12 +33,13 @@
 }
 
 .project-content {
-  padding: 0.5rem 2rem 0 2rem;
+  padding: 0.5rem 2rem 0.4rem 5rem;
 }
 
 .skills-content {
   display: flex;
   padding: 2rem;
+  padding-top: 1rem;
 }
 
 .hard, .soft {

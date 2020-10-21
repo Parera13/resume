@@ -18,16 +18,13 @@ function Head() {
         <div className='right-content'>
           <div className='aboutMe-content'>
             <p>
-              <span className='title'>about me</span> i am mixed of choleric and melancholic personality type. i do effort to have a good relation with others. i prefer the tasks which are creative and push my limit. 
+              <span className='title'>about me</span> after a lot of travel and work around eu, i made a decision.
+               so far i had physical works and i do want to change to intellectual work. i liked my last job as a 
+               sailor but that is not matching with my further goals like starting a family. there was not a question 
+               that i open to the it sector.
             </p>
-          </div>
-          <div className='mentor-content'>
             <p>
-              <span className='title'>mentor opinion</span> Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in
+              i do effort to have a good relation with others, i prefer the tasks which are creative and push my limit.
             </p>
           </div>
           <div className='contacts'>
@@ -38,7 +35,7 @@ function Head() {
               </div>
               <div className='contact'>
                 <i class='fa fa-envelope-square'></i>
-                <p>pareraphotography@gmail.com</p>
+                <p>istvan.balazs.priv@gmail.com</p>
               </div>
             </div>
             <div className='contact-right'>

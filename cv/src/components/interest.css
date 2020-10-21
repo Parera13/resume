@@ -1,3 +1,6 @@
 .interest-component{
-  padding: 1.5rem 6rem;
+  padding: 1.6rem 6rem;
+}
+.interest-component p{
+  margin: 0;
 }

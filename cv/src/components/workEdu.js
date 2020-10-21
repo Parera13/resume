@@ -1,5 +1,9 @@
 import React from 'react';
 import '../components/workEdu.css';
+import Waiter from '../waiter.svg'
+import Anchor from '../anchor.svg'
+import Developer from '../developer.svg'
+
 
 function WorkEdu() {
   return (
@@ -17,6 +21,7 @@ function WorkEdu() {
             </div>
             <div className='edu-details'>
               <h2>river ships - swiss gloria, ms saxonia, excellence coral</h2>
+              <h3>france, germany, poland, czech republic</h3>
               <p>sailor</p>
             </div>
           </div>
@@ -30,6 +35,7 @@ function WorkEdu() {
             </div>
             <div className='edu-details'>
               <h2>villa bagatelle</h2>
+              <h3>budapest</h3>
               <p>waiter</p>
             </div>
           </div>
@@ -56,6 +62,7 @@ function WorkEdu() {
             </div>
             <div className='edu-details'>
               <h2>river ships - serenade 1, serenade 2, royal crown</h2>
+              <h3>germany, austria, bulgaria, hungary, romania, switzerland, netherlands, belgium, luxemburg</h3>
               <p>bar waiter</p>
             </div>
           </div>
@@ -128,6 +135,11 @@ function WorkEdu() {
               <p>gce exemination</p>
             </div>
           </div>
+        </div>
+        <div className="edu-icons">
+          <img className='prof-icons' src={Waiter} alt="" srcset=""/>
+          <img className='prof-icons' src={Anchor} alt="" srcset=""/>
+          <img className='prof-icons' src={Developer} alt="" srcset=""/>
         </div>
       </div>
     </div>

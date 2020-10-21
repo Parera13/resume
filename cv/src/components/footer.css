@@ -1,9 +1,10 @@
 .footer{
   position: absolute;
   bottom: 0;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .language,
 .text{
@@ -12,16 +13,14 @@
 .language{
   width: 20%;
 }
-.language-inside{
-  
-}
+
 .text{
   width: 76%;
 }
 .language .title{
   text-align: center;
   display: block;
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem; */
 }
 .language-content{
   display: flex;
@@ -35,6 +34,7 @@
 .text p{
   padding: 2rem;
   margin: 0;
+  text-align: center;
 }
 .line-block{
   display: flex;

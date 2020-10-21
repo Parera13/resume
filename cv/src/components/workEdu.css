@@ -7,7 +7,7 @@
 .edu{
   width: 48%;
   background-color: #30373d;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .work-edu-component span{
   text-align: center;
@@ -54,4 +54,25 @@
 }
 .footer i.fa{
   font-size: 3rem;
+}
+.edu-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(58, 69, 78);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.edu{
+  position: relative;
+}
+.prof-icons{
+  width: 12%;
+  height: 4rem;
+  background:rgba(147, 173, 180, 0.753);
+  border-radius: 50%;
+  padding: .5rem;
+  color: azure;
+  margin: .4rem;
 }
